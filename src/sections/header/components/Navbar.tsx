@@ -1,15 +1,19 @@
-// import { useRef } from 'react'
+import { HeaderProps } from '../../../global'
 import NavbarItem from './NavbarItem'
 
-export default function Navbar(): JSX.Element {
+export default function Navbar({ sectionRefs }: HeaderProps): JSX.Element {
     return (
         <nav className="flex justify-center items-center text-wh px-4 py-2">
             <ul className="flex justify-center items-center">
-                <NavbarItem>Sobre mí</NavbarItem>
-                <NavbarItem>Experiencia</NavbarItem>
-                <NavbarItem>Proyectos</NavbarItem>
-                <NavbarItem>Tecnologías</NavbarItem>
-                <NavbarItem>Contacto</NavbarItem>
+                {Object.keys(sectionRefs).map((section, index) => (
+                    <NavbarItem
+                        key={index}
+                        sectionRef={sectionRefs[section].ref}
+                        index={index}
+                    >
+                        {sectionRefs[section].title}
+                    </NavbarItem>
+                ))}
             </ul>
         </nav>
     )

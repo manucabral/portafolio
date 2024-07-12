@@ -1,9 +1,10 @@
+import { HeaderProps } from '../../global'
 import Navbar from './components/Navbar'
 
-export default function Header(): JSX.Element {
+export default function Header({ sectionRefs }: HeaderProps): JSX.Element {
     return (
         <header className="flex justify-center items-center">
-            <Navbar />
+            <Navbar sectionRefs={sectionRefs} />
         </header>
     )
 }
