@@ -7,10 +7,10 @@ export default function Section({
 }: SectionProps): JSX.Element {
     return (
         <section
+            title={title}
             ref={innerRef}
-            className="flex justify-center items-center h-[400px] text-wh"
+            className="flex justify-center items-center text-wh sm:w-[1100px] pt-10"
         >
-            {title}
             {children}
         </section>
     )
