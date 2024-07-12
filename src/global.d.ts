@@ -24,3 +24,9 @@ export interface NavItemProps extends DefaultChildProps {
     sectionRef: React.RefObject<HTMLElement>
     index: number
 }
+
+export interface ButtonProps extends DefaultChildProps {
+    onClick?: () => void
+    className?: string
+    type?: 'primary' | 'secondary'
+}
