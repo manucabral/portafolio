@@ -12,7 +12,7 @@ export default function NavbarItem({
         })
     return (
         <li
-            className="nav-item cursor-pointer px-1 sm:mx-3"
+            className="nav-item cursor-pointer px-1 sm:mx-3 hover:border-b hover:border-current"
             data-index={index}
             onClick={handleClick}
         >
