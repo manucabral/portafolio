@@ -1,0 +1,104 @@
+[
+    {
+        "id": 1,
+        "role": "Backend Developer",
+        "product": "Página web de sorteos",
+        "company": "Héroes del Verano - KraftHeinz",
+        "link": "https://heroesdelverano.com/",
+        "description": [
+            "Desarrollé y desplegué una REST API de alto tráfico para la gestión de sorteos semanales.",
+            "Trabajé y mejoré un 80% la velocidad de carga de las respuestas de las imágenes.",
+            "Diseñé y desarrollé un sistema de sorteos con ponderación para la plataforma.",
+            "Implementé funcionalidades de exportación de datos para facilitar la extracción y análisis de información."
+        ],
+        "techs": [
+            "NodeJS",
+            "ExpressJS",
+            "PassportJS",
+            "MySQL",
+            "JavaScript"
+        ],
+        "startDate": "mayo 2024",
+        "endDate": "junio 2024"
+    },
+    {
+        "id": 2,
+        "role": "Backend Developer",
+        "product": "Landing page de suscripción",
+        "company": "SmartPOS Cloud",
+        "link": "https://smartposcloud.com/",
+        "description": [
+            "Desarrollé y desplegué una REST API de alto tráfico para la gestión de sorteos semanales.",
+            "Trabajé y mejoré un 80% la velocidad de carga de las respuestas de las imágenes.",
+            "Diseñé y desarrollé un sistema de sorteos con ponderación para la plataforma.",
+            "Implementé funcionalidades de exportación de datos para facilitar la extracción y análisis de información."
+        ],
+        "techs": [
+            "NodeJS",
+            "ExpressJS",
+            "MySQL",
+            "JavaScript"
+        ],
+        "startDate": "mayo 2024",
+        "endDate": "junio 2024"
+    },
+    {
+        "id": 3,
+        "role": "Backend Developer",
+        "product": "Portafolio de Imágenes",
+        "company": "Cesar Martinez Edo",
+        "link": "https://cesaresedo.com/",
+        "description": [
+            "Desarrollé y desplegué una REST API para alojar y presentar contenido multimedia sin servicios de terceros",
+            "Implementé middlewares de compresión para una mayor velocidad de la API y restricciones de peticiones para prevenir ataques de fuerza bruta."
+        ],
+        "techs": [
+            "NodeJS",
+            "ExpressJS",
+            "MySQL",
+            "JavaScript"
+        ],
+        "startDate": "febrero 2024",
+        "endDate": "abril 2024"
+    },
+    {
+        "id": 4,
+        "role": "Backend Developer",
+        "product": "E-commerce de productos agrícolas",
+        "company": "XPLAZA",
+        "link": "/#",
+        "description": [
+            "Cree y mantuve una REST API para una plataforma e-commerce permitiendo la gestión de usuarios, productos, categorías y administración incluyendo la implementación de pruebas de integración y unitarias, así como documentación completa para garantizar la calidad y fiabilidad del código."
+        ],
+        "techs": [
+            "NodeJS",
+            "ExpressJS",
+            "MySQL",
+            "Swagger",
+            "Jest",
+            "JavaScript"
+        ],
+        "startDate": "diciembre 2024",
+        "endDate": "enero 2024"
+    },
+    {
+        "id": 5,
+        "role": "Backend Developer",
+        "product": "E-commerce de joyería",
+        "company": "Rococó Joyas",
+        "link": "https://www.rococojoyas.com.ar/",
+        "description": [
+            "Desarrollé, mantuve y desplegué una robusta REST API para un e-commerce especializado en joyería.",
+            "Integré pagos mediante MercadoPago con descuentos exclusivos, asegurando una experiencia de usuario mejorada y eficiente."
+        ],
+        "techs": [
+            "NodeJS",
+            "ExpressJS",
+            "MySQL",
+            "Swagger",
+            "JavaScript"
+        ],
+        "startDate": "octubre 2023",
+        "endDate": "diciembre 2023"
+    }
+]
