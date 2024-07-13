@@ -11,7 +11,7 @@ export default function App(): JSX.Element {
         sectionsRefValues: RefValuesType
     }
     return (
-        <div className="h-max text-white bg-gradient-to-r from-pr to-se">
+        <div className="h-max bg-se text-white">
             <Header sectionRefs={sectionsRefValues} />
             <main className="flex flex-col justify-center items-center">
                 <About innerRef={sectionsRefValues.about.ref} />
