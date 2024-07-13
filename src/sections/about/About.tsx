@@ -7,8 +7,12 @@ import type { RefProps } from '../../global'
 
 export default function About({ innerRef }: RefProps) {
     return (
-        <Section title="Sobre mí" innerRef={innerRef}>
-            <div className="flex flex-col-reverse sm:flex-row justify-center items-center w-full sm:pl-10 sm:pr-10">
+        <Section
+            title="Sobre mí"
+            innerRef={innerRef}
+            className="bg-gradient-to-b from-se to-pr w-full"
+        >
+            <div className="flex flex-col-reverse sm:flex-row justify-center items-center w-[1100px] pt-10 sm:pl-10 sm:pr-10">
                 <div className="flex flex-col gap-4 w-full">
                     <div className="flex text-sm flex-col sm:p-2 items-center">
                         <ProfileHeader

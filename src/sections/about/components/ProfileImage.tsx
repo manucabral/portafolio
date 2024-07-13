@@ -1,4 +1,4 @@
-import selfie from '../../../../public/selfie.webp'
+import selfie from '/selfie.webp'
 
 export default function ProfileImage(): JSX.Element {
     return (

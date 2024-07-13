@@ -9,7 +9,7 @@ export default function ProfileHeader({
             <h2 className="text-4xl sm:text-5xl font-bold text-center sm:text-left">
                 {name}
             </h2>
-            <h3 className="font-bold sm:text-2xl text-center sm:text-left">
+            <h3 className="font-bold sm:text-2xl text-center sm:text-left text-te-300">
                 {role}
             </h3>
         </div>
