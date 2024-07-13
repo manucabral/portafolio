@@ -28,10 +28,8 @@
         "company": "SmartPOS Cloud",
         "link": "https://smartposcloud.com/",
         "description": [
-            "Desarrollé y desplegué una REST API de alto tráfico para la gestión de sorteos semanales.",
-            "Trabajé y mejoré un 80% la velocidad de carga de las respuestas de las imágenes.",
-            "Diseñé y desarrollé un sistema de sorteos con ponderación para la plataforma.",
-            "Implementé funcionalidades de exportación de datos para facilitar la extracción y análisis de información."
+            "Creé y desplegué una REST API para la gestión de usuarios, planes y membresías, utilizando una arquitectura en capas.",
+            "Implementé la integración de pagos de membresías utilizando PayPal y sus webhooks, lo cual contribuyó significativamente a la adquisición de nuevos clientes."
         ],
         "techs": [
             "NodeJS",
@@ -39,8 +37,8 @@
             "MySQL",
             "JavaScript"
         ],
-        "startDate": "mayo 2024",
-        "endDate": "junio 2024"
+        "startDate": "febrero 2024",
+        "endDate": "abril 2024"
     },
     {
         "id": 3,
