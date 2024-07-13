@@ -3,7 +3,7 @@ import NavbarItem from './NavbarItem'
 
 export default function Navbar({ sectionRefs }: HeaderProps): JSX.Element {
     return (
-        <nav className="flex justify-center items-center text-wh px-4 py-2">
+        <nav className="flex justify-center items-center text-wh sm:px-4 py-2 w-full">
             <ul className="flex justify-center items-center">
                 {Object.keys(sectionRefs).map((section, index) => (
                     <NavbarItem
