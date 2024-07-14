@@ -21,6 +21,7 @@ export default function TechIcon({ key, name }: TechIconProps): JSX.Element {
     return (
         <div
             key={key}
+            title={name}
             className="flex items-center justify-center w-10 h-10 shadow-sm ring ring-se ring-opacity-20 hover:ring-opacity-50"
         >
             {icons[name.toLocaleLowerCase()]}
