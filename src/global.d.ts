@@ -49,3 +49,33 @@ export interface IconProps {
     stroke?: string
     className?: string
 }
+
+export interface JobType {
+    id: number
+    company: string
+    product: string
+    description: string[]
+    techs: string[]
+    startDate: string
+    endDate: string
+    link: string
+}
+
+export interface JobItemsProps extends DefaultChildProps {
+    job: JobType
+}
+
+export interface JobHeaderProps {
+    link: string
+    company: string
+    product: string
+}
+
+export interface JobFooterProps {
+    startDate: string
+    endDate: string
+}
+
+export interface StringListProps {
+    items: string[]
+}
