@@ -2,6 +2,7 @@ import Header from './sections/header'
 import About from './sections/about'
 import Experience from './sections/experience'
 import Projects from './sections/projects'
+import Tecnologies from './sections/tecnologies'
 import Contact from './sections/contact'
 import useSectionsRef from './hooks/useSectionsRef'
 import { RefValuesType } from './global'
@@ -17,6 +18,7 @@ export default function App(): JSX.Element {
                 <About innerRef={sectionsRefValues.about.ref} />
                 <Experience innerRef={sectionsRefValues.experience.ref} />
                 <Projects innerRef={sectionsRefValues.projects.ref} />
+                <Tecnologies innerRef={sectionsRefValues.tecnologies.ref} />
                 <Contact innerRef={sectionsRefValues.contact.ref} />
             </main>
         </div>
