@@ -10,7 +10,9 @@ export default function ProjectItemLinks({
             className="flex flex-col sm:flex-row gap-4 items-start justify-start pt-2"
         >
             {project.links.demo !== '/#' && (
-                <CustomLink href={project.links.demo}>Visitar</CustomLink>
+                <CustomLink href={project.links.demo} target="_blank">
+                    Visitar
+                </CustomLink>
             )}
             {project.links.sources.backend && (
                 <div className="flex gap-2">
