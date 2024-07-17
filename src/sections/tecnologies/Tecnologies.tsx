@@ -14,7 +14,7 @@ export default function Tecnologies({ innerRef }: RefProps): JSX.Element {
                 <h2 className="text-3xl font-bold text-center sm:text-left">
                     Tecnologías
                 </h2>
-                <div className="flex flex-wrap gap-4 w-full">
+                <div className="flex flex-wrap gap-4 w-full p-10">
                     <ul className="flex flex-wrap gap-4 sm:gap-10 w-full items-center justify-center">
                         {techs.map((tech) => (
                             <TechIcon id={tech} name={tech} showName={true} />
