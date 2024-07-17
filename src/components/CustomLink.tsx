@@ -4,7 +4,7 @@ import LinkIcon from './icons/LinkIcon'
 export default function CustomLink({
     href,
     className,
-    target,
+    target = '_blank',
     children,
 }: CustomLinkProps): JSX.Element {
     const defaultClassName = `text-te-400 hover:underline flex items-center gap-1 ${className}}`
