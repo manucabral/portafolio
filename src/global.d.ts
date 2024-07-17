@@ -4,6 +4,7 @@ export interface DefaultChildProps {
 
 export interface RefProps {
     innerRef?: React.RefObject<HTMLElement> | null
+    otherRefs?: RefValuesType
 }
 
 export interface SectionProps extends RefProps, DefaultChildProps {
@@ -41,7 +42,7 @@ export interface CustomLinkProps extends DefaultChildProps {
 }
 
 export interface TechIconProps {
-    key: string
+    id: string
     name: string
     showName?: boolean
 }

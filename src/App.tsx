@@ -15,7 +15,10 @@ export default function App(): JSX.Element {
         <div className="h-max bg-se text-white">
             <Header sectionRefs={sectionsRefValues} />
             <main className="flex flex-col justify-center items-center">
-                <About innerRef={sectionsRefValues.about.ref} />
+                <About
+                    innerRef={sectionsRefValues.about.ref}
+                    otherRefs={sectionsRefValues}
+                />
                 <Experience innerRef={sectionsRefValues.experience.ref} />
                 <Projects innerRef={sectionsRefValues.projects.ref} />
                 <Tecnologies innerRef={sectionsRefValues.tecnologies.ref} />

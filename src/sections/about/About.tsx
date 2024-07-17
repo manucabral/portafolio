@@ -5,7 +5,7 @@ import ProfileButtons from './components/ProfileButtons'
 import ProfileImage from './components/ProfileImage'
 import type { RefProps } from '../../global'
 
-export default function About({ innerRef }: RefProps) {
+export default function About({ innerRef, otherRefs }: RefProps) {
     return (
         <Section
             title="Sobre mí"
@@ -27,7 +27,7 @@ export default function About({ innerRef }: RefProps) {
                             en equipo y la entrega de proyectos eficientes y de
                             alta calidad."
                         />
-                        <ProfileButtons />
+                        <ProfileButtons otherRefs={otherRefs} />
                     </div>
                 </div>
                 <ProfileImage />
