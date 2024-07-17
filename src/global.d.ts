@@ -39,6 +39,7 @@ export interface CustomLinkProps extends DefaultChildProps {
     href: string
     className?: string
     target?: string
+    includeIcon?: boolean
 }
 
 export interface TechIconProps {

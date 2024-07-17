@@ -6,8 +6,9 @@ export default function CustomLink({
     className,
     target = '_blank',
     children,
+    includeIcon = true,
 }: CustomLinkProps): JSX.Element {
-    const defaultClassName = `text-te-400 hover:underline flex items-center gap-1 ${className}}`
+    const defaultClassName = `text-te-400 hover:underline flex justify-center items-center gap-2 ${className}}`
     return (
         <a
             href={href}
@@ -15,7 +16,7 @@ export default function CustomLink({
             target={target}
             rel="noreferrer"
         >
-            <LinkIcon name="Link" />
+            {includeIcon && <LinkIcon name="Link" />}
             {children}
         </a>
     )
