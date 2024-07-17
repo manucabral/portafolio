@@ -4,6 +4,7 @@ import Experience from './sections/experience'
 import Projects from './sections/projects'
 import Tecnologies from './sections/tecnologies'
 import Contact from './sections/contact'
+import Footer from './sections/footer'
 import useSectionsRef from './hooks/useSectionsRef'
 import { RefValuesType } from './global'
 
@@ -24,6 +25,7 @@ export default function App(): JSX.Element {
                 <Tecnologies innerRef={sectionsRefValues.tecnologies.ref} />
                 <Contact innerRef={sectionsRefValues.contact.ref} />
             </main>
+            <Footer />
         </div>
     )
 }
