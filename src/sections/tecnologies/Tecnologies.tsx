@@ -17,7 +17,7 @@ export default function Tecnologies({ innerRef }: RefProps): JSX.Element {
                 <div className="flex flex-wrap gap-4 w-full">
                     <ul className="flex flex-wrap gap-4 sm:gap-10 w-full items-center justify-center">
                         {techs.map((tech) => (
-                            <TechIcon key={tech} name={tech} showName={true} />
+                            <TechIcon id={tech} name={tech} showName={true} />
                         ))}
                     </ul>
                 </div>

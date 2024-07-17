@@ -5,7 +5,7 @@ export default function JobTechs({ items }: StringListProps): JSX.Element {
     return (
         <div className="flex gap-1 pt-4">
             {items.map((tech) => (
-                <TechIcon key={tech} name={tech} />
+                <TechIcon id={tech} name={tech} />
             ))}
         </div>
     )

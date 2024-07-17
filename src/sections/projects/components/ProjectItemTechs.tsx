@@ -10,7 +10,7 @@ export default function ProjectItemTechs({
             className="flex gap-1 pt-4  justify-center sm:justify-start"
         >
             {project.techs.map((tech) => (
-                <TechIcon key={tech} name={tech} />
+                <TechIcon id={tech} name={tech} />
             ))}
         </ul>
     )
