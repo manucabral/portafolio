@@ -13,7 +13,7 @@ export default {
             wh: 'white',
             bl: '#000',
             pr: '#1E192E',
-            se: '#5A659E',
+            se: '#4B2840',
             te: {
                 100: '#E1382E',
                 200: '#67659B',
