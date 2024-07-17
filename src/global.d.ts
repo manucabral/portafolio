@@ -30,11 +30,20 @@ export interface ButtonProps extends DefaultChildProps {
     onClick?: () => void
     className?: string
     type?: 'primary' | 'secondary'
+    redirect?: string
+    target?: string
+}
+
+export interface CustomLinkProps extends DefaultChildProps {
+    href: string
+    className?: string
+    target?: string
 }
 
 export interface TechIconProps {
     key: string
     name: string
+    showName?: boolean
 }
 
 export interface TechListType {
@@ -78,4 +87,29 @@ export interface JobFooterProps {
 
 export interface StringListProps {
     items: string[]
+}
+
+export interface ProjectType {
+    id: number
+    name: string
+    description: string
+    startDate: string
+    endDate: string
+    image: string
+    links: {
+        demo: string
+        sources: {
+            backend: string
+            frontend: string
+        }
+    }
+    techs: string[]
+}
+
+export interface ProjectItemsProps extends DefaultChildProps {
+    projects: ProjectType[]
+}
+
+export interface ProjectItemChildProps extends DefaultChildProps {
+    project: ProjectType
 }
