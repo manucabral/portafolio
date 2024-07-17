@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "GuessRank",
+        "description": "Plataforma web interactiva y dinámica para adivinar el rango de jugadores en distintos videojuegos.",
+        "image": "rankguess.webp",
+        "links": {
+            "sources": {
+                "frontend": "https://github.com/guessrank/web",
+                "backend": "https://github.com/guessrank/api"
+            },
+            "demo": "https://www.guessrank.xyz"
+        },
+        "techs": [
+            "NodeJS",
+            "NestJS",
+            "NextJS",
+            "TailwindCSS",
+            "Zustand",
+            "MongoDB",
+            "Jest"
+        ],
+        "startDate": "junio 2024",
+        "endDate": "presente"
+    },
+    {
+        "id": 2,
+        "name": "Pastesnip",
+        "description": "Aplicación web que permite a los usuarios publicar, compartir y descubrir fragmentos de código y texto. Cuenta con autenticación y autorización de usuarios.",
+        "image": "pastesnip.webp",
+        "links": {
+            "sources": {
+                "frontend": "https://github.com/manucabral/pastesnip-frontend",
+                "backend": "https://github.com/TeamMrWeb/pastesnip-backend"
+            },
+            "demo": "https://manucabral.github.io/pastesnip-frontend"
+        },
+        "techs": [
+            "NodeJS",
+            "ReactJS",
+            "TailwindCSS",
+            "ExpressJS",
+            "Apollo",
+            "GraphQL",
+            "MongoDB",
+            "Mocha"
+        ],
+        "startDate": "enero 2023",
+        "endDate": "febrero 2023"
+    },
+    {
+        "id": 3,
+        "name": "Parches Chat",
+        "description": "Aplicación de chat en tiempo real con salas y mensajes privados. Cuenta con autenticación y autorización de usuarios.",
+        "role": "Backend Developer",
+        "image": "parcheschat.webp",
+        "links": {
+            "sources": {
+                "frontend": "/#",
+                "backend": "https://github.com/TeamMrWeb/parches-chat/tree/backend"
+            },
+            "demo": "https://teammrweb.github.io/parches-chat/"
+        },
+        "techs": [
+            "NodeJS",
+            "ExpressJS",
+            "GraphQL",
+            "MongoDB",
+            "Mocha"
+        ],
+        "startDate": "agosto 2022",
+        "endDate": "noviembre 2022"
+    }
+]
