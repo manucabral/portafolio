@@ -20,7 +20,7 @@ import GitIcon from './icons/GitIcon'
 import ZustandIcon from './icons/ZustandIcon'
 
 export default function TechIcon({
-    key,
+    id,
     name,
     showName = false,
 }: TechIconProps): JSX.Element {
@@ -52,7 +52,7 @@ export default function TechIcon({
     return (
         <div className={`flex flex-col items-center gap-1 ${height} ${width}`}>
             <div
-                key={key}
+                key={id}
                 title={name}
                 className={`flex items-center justify-center w-full h-full shadow-sm ${border} ring-se ring-opacity-20 hover:ring-opacity-50`}
             >
