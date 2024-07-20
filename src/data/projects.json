@@ -6,7 +6,7 @@
         "image": "rankguess.webp",
         "links": {
             "sources": {
-                "frontend": "https://github.com/guessrank/web",
+                "frontend": "https://github.com/guessrank/web/tree/dev",
                 "backend": "https://github.com/guessrank/api"
             },
             "demo": "https://www.guessrank.xyz"
