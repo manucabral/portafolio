@@ -6,7 +6,7 @@ export default function JobHeader({
     product,
 }: JobHeaderProps): JSX.Element {
     return (
-        <div className="flex flex-col sm:flex-row gap-3 text-left pb-2">
+        <div className="flex flex-col sm:flex-row gap-3 text-left pb-2 items-start sm:items-center">
             <h1 className="text-xl font-bold text-te-300">
                 <a
                     href={link}
@@ -17,7 +17,10 @@ export default function JobHeader({
                     {company}
                 </a>
             </h1>
-            <h2 className="text-lg font-semibold text-te-400">{product}</h2>
+
+            <div className="flex flex-col">
+                <h2 className="text-lg font-semibold text-te-400">{product}</h2>
+            </div>
         </div>
     )
 }

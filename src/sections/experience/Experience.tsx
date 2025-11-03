@@ -10,14 +10,29 @@ export default function Experience({ innerRef }: RefProps): JSX.Element {
             innerRef={innerRef}
             className="bg-pr w-full"
         >
-            <div className="flex flex-col gap-4 w-full sm:w-[1000px] mt-10">
-                <h2 className="text-3xl font-bold text-center sm:text-left">
-                    Experiencia
-                </h2>
-                <ul className="flex flex-col gap-10 w-full pl-4">
-                    {experience.map((job) => (
-                        <JobItem key={job.id} job={job} />
-                    ))}
+            <div className="max-w-[1000px] w-full mx-auto mt-10 px-4 sm:px-6">
+                <header className="mb-4">
+                    <h2
+                        id="experiencia-heading"
+                        className="text-3xl font-bold text-center sm:text-left"
+                    >
+                        Experiencia
+                    </h2>
+                </header>
+
+                <ul
+                    aria-labelledby="experiencia-heading"
+                    className="flex flex-col gap-10 w-full"
+                >
+                    {experience.length === 0 ? (
+                        <li className="text-center text-sm text-white/70">
+                            No hay experiencia disponible.
+                        </li>
+                    ) : (
+                        experience.map((job) => (
+                            <JobItem key={job.id} job={job} />
+                        ))
+                    )}
                 </ul>
             </div>
         </Section>

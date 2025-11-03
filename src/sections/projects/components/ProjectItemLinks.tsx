@@ -21,7 +21,7 @@ export default function ProjectItemLinks({
                     </CustomLink>
                 </div>
             )}
-            {project.links.sources.frontend !== '/#' && (
+            {project.links.sources.frontend !== '' && (
                 <div className="flex gap-2">
                     <CustomLink href={project.links.sources.frontend}>
                         Código Frontend

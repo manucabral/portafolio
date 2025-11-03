@@ -9,18 +9,25 @@ export default function JobItem({ job }: JobItemsProps): JSX.Element {
         <li
             title={job.company}
             key={job.id}
-            className="flex flex-col sm:flex-row w-full border-b border-se border-opacity-80"
+            className="w-full border-b border-se border-opacity-80 py-6"
         >
-            <div className="flex justify-between flex-col w-full">
-                <JobHeader
-                    link={job.link}
-                    company={job.company}
-                    product={job.product}
+            <div className="grid grid-cols-1 sm:grid-cols-[1fr_auto] gap-4 items-start">
+                <div className="flex flex-col gap-3">
+                    <JobHeader
+                        link={job.link}
+                        company={job.company}
+                        product={job.product}
+                    />
+                    <JobDescription items={job.description} />
+                    <JobTechs items={job.techs} />
+                </div>
+
+                <JobFooter
+                    startDate={job.startDate}
+                    endDate={job.endDate}
+                    role={job.role}
                 />
-                <JobDescription items={job.description} />
-                <JobTechs items={job.techs} />
             </div>
-            <JobFooter startDate={job.startDate} endDate={job.endDate} />
         </li>
     )
 }

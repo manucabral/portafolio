@@ -9,12 +9,15 @@ export default function Button({
     target,
 }: ButtonProps): JSX.Element {
     const baseClasses =
-        'focus:outline-none font-medium rounded-lg text-sm text-center me-2'
+        'inline-flex items-center justify-center font-medium rounded-lg text-sm text-center transition-all duration-200 focus:outline-none focus-visible:ring-4 focus-visible:ring-offset-2 focus-visible:ring-offset-transparent active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed me-2'
+
     const types = {
-        primary: `text-white bg-te-100 hover:bg-te-200 focus:ring-4 focus:ring-te-400 dark:focus:ring-te-800 ${baseClasses} px-5 py-2.5`,
-        secondary: `text-white bg-te-200 focus:ring-4 focus:ring-te-400 dark:focus:ring-te-800 ${baseClasses} px-5 py-2.5`,
+        primary: `text-white bg-te-100 hover:bg-te-200 active:bg-te-300 shadow-sm hover:shadow-md focus:ring-te-400 dark:focus:ring-te-800 ${baseClasses} px-5 py-2.5`,
+        secondary: `text-white bg-te-200 hover:bg-te-100 active:bg-te-300 shadow-sm hover:shadow-md focus:ring-te-400 dark:focus:ring-te-800 ${baseClasses} px-5 py-2.5`,
     }
+
     const buttonClassNames = `${types[type]} ${className}`
+
     return redirect ? (
         <a
             href={redirect}
@@ -25,7 +28,7 @@ export default function Button({
             {children}
         </a>
     ) : (
-        <button onClick={onClick} className={buttonClassNames}>
+        <button onClick={onClick} className={buttonClassNames} type="button">
             {children}
         </button>
     )

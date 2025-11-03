@@ -1,8 +1,41 @@
 [
     {
+        "id": 0,
+        "name": "Alquilercito",
+        "description": "Herramienta web que facilita la búsqueda de alquileres de propiedades de diferentes fuentes de manera rápida.",
+        "image": "alquilercito.webp",
+        "links": {
+            "sources": {
+                "frontend": "https://github.com/manucabral/alquilercito",
+                "backend": ""
+            },
+            "demo": "https://alquilercito.vercel.app/"
+        },
+        "techs": ["NodeJS", "NextJS", "TailwindCSS", "Git"],
+        "startDate": "septiembre 2025",
+        "endDate": "octubre 2025"
+    },
+    {
         "id": 1,
+        "name": "Daily Football Games",
+        "description": "Aplicación web interactiva para fanáticos del fútbol que utiliza IA para generar desafíos y predicciones diarias.",
+        "image": "dailyfootballgames.webp",
+        "links": {
+            "sources": {
+                "frontend": "",
+                "backend": ""
+            },
+            "demo": "https://dailyfootballgames.vercel.app/"
+        },
+        "techs": ["NodeJS", "NextJS", "TailwindCSS"],
+        "startDate": "julio 2025",
+        "endDate": "agosto 2025"
+    },
+
+    {
+        "id": 2,
         "name": "GuessRank",
-        "description": "Plataforma web interactiva y dinámica para adivinar el rango de jugadores en distintos videojuegos.",
+        "description": "Plataforma web para adivinar el rango de jugadores en distintos videojuegos.",
         "image": "rankguess.webp",
         "links": {
             "sources": {
@@ -24,9 +57,9 @@
         "endDate": "presente"
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Pastesnip",
-        "description": "Aplicación web que permite a los usuarios publicar, compartir y descubrir fragmentos de código y texto. Cuenta con autenticación y autorización de usuarios.",
+        "description": "Aplicación para publicar y compartir fragmentos de código y texto con autenticación y autorización.",
         "image": "pastesnip.webp",
         "links": {
             "sources": {
@@ -49,9 +82,9 @@
         "endDate": "febrero 2023"
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "Parches Chat",
-        "description": "Aplicación de chat en tiempo real con salas y mensajes privados. Cuenta con autenticación y autorización de usuarios.",
+        "description": "Chat con salas y mensajes privados, autenticación y autorización.",
         "role": "Backend Developer",
         "image": "parcheschat.webp",
         "links": {
@@ -61,13 +94,7 @@
             },
             "demo": "https://teammrweb.github.io/parches-chat/"
         },
-        "techs": [
-            "NodeJS",
-            "ExpressJS",
-            "GraphQL",
-            "MongoDB",
-            "Mocha"
-        ],
+        "techs": ["NodeJS", "ExpressJS", "GraphQL", "MongoDB", "Mocha"],
         "startDate": "agosto 2022",
         "endDate": "noviembre 2022"
     }

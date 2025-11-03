@@ -25,6 +25,7 @@ export interface HeaderProps {
 export interface NavItemProps extends DefaultChildProps {
     sectionRef: React.RefObject<HTMLElement>
     index: number
+    className?: string
 }
 
 export interface ButtonProps extends DefaultChildProps {
@@ -70,6 +71,7 @@ export interface JobType {
     startDate: string
     endDate: string
     link: string
+    role?: string
 }
 
 export interface JobItemsProps extends DefaultChildProps {
@@ -80,11 +82,13 @@ export interface JobHeaderProps {
     link: string
     company: string
     product: string
+    role?: string
 }
 
 export interface JobFooterProps {
     startDate: string
     endDate: string
+    role?: string
 }
 
 export interface StringListProps {
